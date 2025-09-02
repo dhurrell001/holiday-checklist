@@ -1,0 +1,26 @@
+.itemContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px;
+  /* background-color: aquamarine; */
+}
+.checkListItem {
+  list-style-type: none;
+  font-size: 20px;
+  color: red;
+}
+/* checkListItem.module.css */
+.checkbox {
+  transform: scale(1.5); /* 1.5 = 150% size */
+  margin-right: 10px;
+  accent-color: #4a90e2; /* modern browsers let you color it too */
+}
+.deleteButton {
+  background-color: red;
+  border: none;
+  color: white;
+  font-size: 19px;
+  cursor: pointer;
+}
