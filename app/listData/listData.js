@@ -1,0 +1,73 @@
+// packingList.js
+
+const packingList = {
+  clothes: [
+    { id: 1, task: "T-shirts", quantity: 10, checked: false },
+    { id: 2, task: "Jumper (not for abroad)", quantity: 2, checked: false },
+    { id: 3, task: "Smart shirt", quantity: 2, checked: false },
+    { id: 4, task: "Jeans", quantity: 2, checked: false },
+    { id: 5, task: "Linen trousers", quantity: 2, checked: false },
+    { id: 6, task: "Belt", quantity: 1, checked: false },
+    { id: 7, task: "Socks and pants", quantity: 7, checked: false },
+    { id: 8, task: "Body warmer / warm jacket", quantity: 1, checked: false },
+    { id: 9, task: "Hat", quantity: 1, checked: false },
+    { id: 10, task: "Shorts", quantity: 1, checked: false },
+  ],
+  accessories: [
+    { id: 11, task: "Sunglasses", quantity: 2, checked: false },
+    { id: 12, task: "Multi tool", quantity: 1, checked: false },
+    { id: 13, task: "Torch", quantity: 1, checked: false },
+    // { id: 14, task: "Phone charger", quantity: 1, checked: false },
+    // { id: 15, task: "Headphones and splitter", quantity: 1, checked: false },
+    { id: 16, task: "Toilet bag", quantity: 1, checked: false },
+    // { id: 17, task: "Kindle and cable", quantity: 1, checked: false },
+    // { id: 18, task: "European plug adapter", quantity: 1, checked: false },
+    // { id: 19, task: "HDMI cable", quantity: 1, checked: false },
+    // { id: 20, task: "Micro USB and Plug", quantity: 1, checked: false },
+    // { id: 21, task: "Kindle TV Stick", quantity: 1, checked: false },
+    // { id: 22, task: "Laptop", quantity: 1, checked: false },
+    { id: 23, task: "E-cigarettes", quantity: 1, checked: false },
+    { id: 24, task: "E-liquid", quantity: 1, checked: false },
+    { id: 25, task: "Leather bag", quantity: 1, checked: false },
+    { id: 26, task: "Eye mask", quantity: 1, checked: false },
+    { id: 27, task: "First aid kit", quantity: 1, checked: false },
+    { id: 28, task: "Travel pillow", quantity: 1, checked: false },
+    { id: 29, task: "Small sellotape", quantity: 1, checked: false },
+    { id: 30, task: "Washing line", quantity: 1, checked: false },
+    {
+      id: 31,
+      task: "Download ebooks / Prime videos",
+      quantity: 1,
+      checked: false,
+    },
+  ],
+  documents: [
+    { id: 32, task: "Boarding passes printed", checked: false },
+    { id: 33, task: "Transfer passes printed", checked: false },
+    { id: 34, task: "Health card", checked: false },
+    { id: 35, task: "Money", checked: false },
+    { id: 36, task: "Passports", checked: false },
+    { id: 37, task: "Medication", checked: false },
+  ],
+  notes: [
+    {
+      id: 38,
+      task: "Rhodes: 4 jeans too many, jumpers not needed",
+      checked: false,
+    },
+    { id: 39, task: "Weather: 28/20 degrees", checked: false },
+    { id: 40, task: "Packing date: 25/09/2016 18:38", checked: false },
+  ],
+  electrical: [
+    { id: 41, task: "Phone charger", quantity: 1, checked: false },
+    { id: 42, task: "Headphones and splitter", quantity: 1, checked: false },
+    { id: 43, task: "Kindle and cable", quantity: 1, checked: false },
+    { id: 44, task: "European plug adapter", quantity: 1, checked: false },
+    { id: 45, task: "HDMI cable", quantity: 1, checked: false },
+    { id: 46, task: "Micro USB and Plug", quantity: 1, checked: false },
+    { id: 47, task: "Kindle TV Stick", quantity: 1, checked: false },
+    { id: 48, task: "Laptop", quantity: 1, checked: false },
+  ],
+};
+
+export default packingList;
