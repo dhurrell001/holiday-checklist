@@ -8,10 +8,6 @@ export default function ChecklistItem({
   onToggle,
   onDelete,
 }) {
-  const handleDelete = () => {
-    alert("Delete function to be implemented");
-  };
-
   return (
     <div className={styles.itemContainer}>
       <li className={styles.checklistItem}>
