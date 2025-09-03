@@ -28,21 +28,38 @@ export default function Home() {
       </div>
 
       <div className={styles.gradientBackground}>
-        <CheckListContainer title="Clothes" listData={packingList.clothes} />
+        <CheckListContainer
+          title="Clothes"
+          listKey="clothesList"
+          listData={packingList.clothes}
+        />
+
         <CheckListContainer
           title="Accessories"
+          listKey="accessoriesList"
           listData={packingList.accessories}
           setItem={setAccessoriesList}
         />
         <CheckListContainer
           title="Documents"
+          listKey="documentsList"
           listData={packingList.documents}
         />
         <CheckListContainer
           title="Electrical"
+          listKey="electricalList"
           listData={packingList.electrical}
         />
-        <CheckListContainer title="Notes" listData={packingList.notes} />
+        {/* <CheckListContainer
+          title="Notes"
+          listKey="notesList"
+          listData={packingList.notes}
+        /> */}
+        <CheckListContainer
+          title="toiletries"
+          listKey="toiletriesList"
+          listData={packingList.toiletries}
+        />
       </div>
     </>
     // <div className={styles.mainContainer}>
