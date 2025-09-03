@@ -68,6 +68,20 @@ const packingList = {
     { id: 47, task: "Kindle TV Stick", quantity: 1, checked: false },
     { id: 48, task: "Laptop", quantity: 1, checked: false },
   ],
+  toiletries: [
+    { id: 49, task: "Toothbrush", quantity: 1, checked: false },
+    { id: 50, task: "Toothpaste", quantity: 1, checked: false },
+    { id: 51, task: "Floss", quantity: 1, checked: false },
+    { id: 52, task: "Mouthwash", quantity: 1, checked: false },
+    { id: 53, task: "Deodorant", quantity: 1, checked: false },
+    { id: 54, task: "Razor", quantity: 1, checked: false },
+    { id: 55, task: "Shaving foam", quantity: 1, checked: false },
+    { id: 56, task: "Aftershave", quantity: 1, checked: false },
+    { id: 57, task: "Comb", quantity: 1, checked: false },
+    { id: 58, task: "Hair gel", quantity: 1, checked: false },
+    { id: 59, task: "Body wash", quantity: 1, checked: false },
+    { id: 60, task: "Shampoo", quantity: 1, checked: false },
+  ],
 };
 
 export default packingList;

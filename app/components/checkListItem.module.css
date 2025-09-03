@@ -9,18 +9,36 @@
 .checkListItem {
   list-style-type: none;
   font-size: 20px;
-  color: red;
+  padding: 10px;
 }
 /* checkListItem.module.css */
 .checkbox {
-  transform: scale(1.5); /* 1.5 = 150% size */
+  transform: scale(1.5);
   margin-right: 10px;
   accent-color: #4a90e2; /* modern browsers let you color it too */
+  background-color: white;
 }
 .deleteButton {
   background-color: red;
   border: none;
   color: white;
-  font-size: 19px;
+  font-size: 21px;
   cursor: pointer;
+}
+@media (max-width: 768px) {
+  .itemContainer {
+    /* flex-direction: column; */
+    align-items: flex-start; /* align to the left */
+    /* justify-content: flex-start; */
+    margin: 5px;
+    padding: 5px;
+    gap: 30px; /* space between checkbox and delete button */
+  }
+  .deleteButton {
+    font-size: 19px;
+    align-self: flex-end; /* move delete button to the right */
+  }
+  .checkListItem {
+    padding: 5px;
+  }
 }
