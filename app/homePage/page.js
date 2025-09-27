@@ -20,18 +20,26 @@ export default function Home() {
   const [documentsList, setDocumentsList] = useState(packingList.documents);
   const [electricalList, setElectricalList] = useState(packingList.electrical);
   const [notesList, setNotesList] = useState(packingList.notes);
+  const [lightMode, setLightMode] = useState(true);
+  const lightModeStyles = lightMode ? styles.containerLight : styles.container;
 
   return (
     <>
       <div>
         <TitleBar />
       </div>
-
+      {/* <button
+        // className={styles.toggleButton}
+        onClick={() => setLightMode(!lightMode)}
+      >
+        mode
+      </button> */}
       <div className={styles.gradientBackground}>
         <CheckListContainer
           title="Clothes"
           listKey="clothesList"
           listData={packingList.clothes}
+          lightMode={lightModeStyles}
         />
 
         <CheckListContainer
@@ -39,16 +47,19 @@ export default function Home() {
           listKey="accessoriesList"
           listData={packingList.accessories}
           setItem={setAccessoriesList}
+          lightMode={lightModeStyles}
         />
         <CheckListContainer
           title="Documents"
           listKey="documentsList"
           listData={packingList.documents}
+          lightMode={lightModeStyles}
         />
         <CheckListContainer
           title="Electrical"
           listKey="electricalList"
           listData={packingList.electrical}
+          lightMode={lightModeStyles}
         />
         {/* <CheckListContainer
           title="Notes"

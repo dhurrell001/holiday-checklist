@@ -3,6 +3,8 @@
   /* font-weight: bold; */
   color: white;
   text-align: center;
+  /* justify-content: flex-start; */
   padding: 20px;
   background-color: darkblue;
+  margin-bottom: 0px;
 }

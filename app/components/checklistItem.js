@@ -1,5 +1,8 @@
 "use client";
 import styles from "./checkListItem.module.css";
+import { MdDeleteOutline } from "react-icons/md";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { Trash2 } from "lucide-react";
 
 export default function ChecklistItem({
   id,
@@ -21,7 +24,7 @@ export default function ChecklistItem({
         {task}
       </li>
       <button onClick={() => onDelete(id)} className={styles.deleteButton}>
-        X{" "}
+        <Trash2 color="#ffffff" strokeWidth={1} />
       </button>
     </div>
   );
