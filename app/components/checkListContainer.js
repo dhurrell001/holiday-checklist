@@ -6,7 +6,12 @@ import Modal from "./addTaskModal";
 import React, { useState, useEffect } from "react";
 import { v4 as uuidv4 } from "uuid";
 
-export default function CheckListContainer({ title, listKey, listData }) {
+export default function CheckListContainer({
+  title,
+  listKey,
+  listData,
+  lightMode,
+}) {
   const [tasks, setTasks] = useState([]); // start empty → consistent SSR
   const [isOpen, setIsOpen] = useState(false);
   const [inputValue, setInputValue] = useState("");
@@ -68,6 +73,7 @@ export default function CheckListContainer({ title, listKey, listData }) {
   return (
     <div className={styles.container}>
       <h1 className={styles.title}>{title}</h1>
+
       <ul className={styles.checkListItem}>
         {tasks.map((item) => (
           <ChecklistItem
