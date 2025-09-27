@@ -19,11 +19,12 @@
   background-color: white;
 }
 .deleteButton {
-  background-color: red;
+  /* background-color: red; */
   border: none;
-  color: white;
+  /* color: white; */
   font-size: 21px;
   cursor: pointer;
+  background-color: transparent;
 }
 @media (max-width: 768px) {
   .itemContainer {
